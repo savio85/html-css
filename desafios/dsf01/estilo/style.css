@@ -17,6 +17,7 @@
     font-family: "Poppins", sans-serif;
     background: var(--body-bg-color);
    overflow-y: hidden;
+   background-image: url(../bg-desktop.jpg);
   }
 
   .container{
@@ -35,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    border: 1px solid #BB99DD;
+    border: 1px solid black;
     border-radius: 20px;
     padding: 30px;
     background-color:  #fafafaa6;
@@ -75,14 +76,14 @@
   }
 
   .links-container a{
-    border:1px solid #BB99DD;
+    border:1px solid black;
     padding: 12px 120px;
     border-radius: 40px;
     margin-bottom: 10px;
   }
 
   .links-container a:hover {
-    background-color: #BB99DD;
+    background-color: black;
     color: #fefefe;
     transition: all .5s ease-out;
     cursor: pointer;
